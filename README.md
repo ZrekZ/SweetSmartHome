@@ -1,4 +1,4 @@
-# SweetSmartHome
+# SweetSmartHome > Куликов М. Махмуд А. Сушенцев В. < РИС-23-1м
 
 SmartHome
 
