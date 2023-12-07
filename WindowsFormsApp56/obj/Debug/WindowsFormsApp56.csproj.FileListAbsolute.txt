@@ -1,0 +1,98 @@
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\cvextern.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\OpenCL.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_calib3d2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_contrib2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_core2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_features2d2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_flann2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_gpu2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_highgui2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_imgproc2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_legacy2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_ml2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_nonfree2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_objdetect2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_photo2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_stitching2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_superres2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_video2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_videostab2410.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\WindowsFormsApp56.exe.config
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\WindowsFormsApp56.exe
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\WindowsFormsApp56.pdb
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.CV.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.CV.GPU.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.CV.ML.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.CV.OCR.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.CV.OpenCL.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.CV.Stitching.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.CV.UI.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.CV.VideoStab.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.Util.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\ZedGraph.dll
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.CV.xml
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.CV.GPU.xml
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.CV.ML.xml
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.CV.OCR.xml
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.CV.OpenCL.xml
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.CV.Stitching.xml
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.CV.UI.xml
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.CV.VideoStab.xml
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Emgu.Util.xml
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\obj\Debug\WindowsFormsApp56.Form1.resources
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\obj\Debug\WindowsFormsApp56.Properties.Resources.resources
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\obj\Debug\WindowsFormsApp56.csproj.GenerateResource.Cache
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\obj\Debug\WindowsFormsApp56.exe
+c:\users\genç\documents\visual studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\obj\Debug\WindowsFormsApp56.pdb
+C:\Users\Genç\Documents\Visual Studio 2017\Projects\WindowsFormsApp56\WindowsFormsApp56\obj\Debug\WindowsFormsApp56.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\cvextern.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\OpenCL.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_calib3d2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_contrib2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_core2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_features2d2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_flann2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_gpu2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_highgui2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_imgproc2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_legacy2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_ml2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_nonfree2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_objdetect2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_photo2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_stitching2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_superres2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_video2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\opencv_videostab2410.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\WindowsFormsApp56.exe.config
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\WindowsFormsApp56.exe
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\WindowsFormsApp56.pdb
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\obj\Debug\WindowsFormsApp56.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\obj\Debug\WindowsFormsApp56.Form1.resources
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\obj\Debug\WindowsFormsApp56.Properties.Resources.resources
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\obj\Debug\WindowsFormsApp56.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\obj\Debug\WindowsFormsApp56.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\obj\Debug\WindowsFormsApp56.csproj.CopyComplete
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\obj\Debug\WindowsFormsApp56.exe
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\obj\Debug\WindowsFormsApp56.pdb
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\obj\Debug\WindowsFormsApp56.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Google.Protobuf.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\MySql.Data.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\System.Memory.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Zstandard.Net.dll
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Google.Protobuf.pdb
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\Google.Protobuf.xml
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\MySql.Data.xml
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\System.Buffers.xml
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\System.Memory.xml
+C:\Users\Admin\Downloads\WindowsFormsApp56\WindowsFormsApp56\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
