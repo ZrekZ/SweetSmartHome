@@ -1,8 +1,0 @@
-20:35:37.9029845 [Info, Thread 100]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.ConfigurationService+ConfigurationCache: Firing updated event for 
-20:35:37.9186098 [Info, Thread 93]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Config update for 
-20:37:39.3475761 [Error, Thread 1]	Microsoft.VisualStudio.CMake.Package.ProjectEditor.ProjectEditorFolderViewProvider: EnableProviderAsync Current workspace is null.
-20:37:39.3475761 [Info, Thread 1]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: ClearAllAsync: Clearing all cache entries.
-20:37:39.3632209 [Info, Thread 1]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Disposing scanner service
-20:37:39.3788439 [Info, Thread 1]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: Canceling all ongoing generations for workspaceDirectory='C:\Users\lahou\OneDrive\Рабочий стол\WindowsFormsApp56'
-20:37:39.3788439 [Info, Thread 1]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: ClearAllAsync: Clearing all cache entries.
-20:37:39.3944751 [Info, Thread 1]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.WaitableIndexService: Disposing waitable service
