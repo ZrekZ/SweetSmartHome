@@ -1,4 +1,4 @@
-﻿using Emgu.CV;
+using Emgu.CV;
 using Emgu.CV.CvEnum;
 using Emgu.CV.Structure;
 using System;
@@ -16,6 +16,8 @@ using MySql.Data.MySqlClient;
 using System.Net.Mail;
 using System.Net;
 using System.Net.Mime;
+using static System.Net.Mime.MediaTypeNames;
+using System.Security.Cryptography;
 
 namespace WindowsFormsApp56
 {
@@ -23,6 +25,7 @@ namespace WindowsFormsApp56
     {
         static string placeToSave;
         static string directoryToSave;
+        public Capture capture = null;
         private static MySqlConnection GetConnection()
         {
             string connString =
@@ -122,6 +125,7 @@ namespace WindowsFormsApp56
                 MCvAvgComp[][] Yuzler = grayimage.DetectHaarCascade(haaryuz, 1.2, 5, HAAR_DETECTION_TYPE.DO_CANNY_PRUNING, new Size(15, 15));
 
                 MCvFont font = new MCvFont(FONT.CV_FONT_HERSHEY_COMPLEX, 0.5, 0.5);
+               
                 foreach (MCvAvgComp yuz in Yuzler[0])
                 {
                     var sadeyuz = grayimage.Copy(yuz.rect).Convert<Gray, byte>().Resize(100, 100, INTER.CV_INTER_CUBIC);
@@ -134,6 +138,7 @@ namespace WindowsFormsApp56
                             int match_value = (int)train.Get_Eigen_Distance;
                             image.Draw(name + " ", ref font, new Point(yuz.rect.X - 2, yuz.rect.Y - 2), new Bgr(Color.LightGreen));
                             GetUserMail(name);
+                            MakeFoto(image.Bitmap);
                         }
                     image.Draw(yuz.rect, new Bgr(Color.Red), 2);
                 }
@@ -146,6 +151,7 @@ namespace WindowsFormsApp56
             {
                 var email = UseSQLQuery($"select User_Email from Users Where User_FIO = '{userName}'").Rows[0].ItemArray.First().ToString();
                 UserEmail.Text = email;
+                
                 SendMessage(email, userName);
             }
             catch (Exception)
@@ -154,26 +160,44 @@ namespace WindowsFormsApp56
             }
             
         }
-        public void SendMessage(string mailAddress, string photoName)
+
+        private async void MakeFoto(Bitmap img)
         {
-            using (var smtps = new SmtpClient("smtp.gmail.com", 25))
+            try
             {
-                MailAddress from = new MailAddress("max59.tyt@gmail.com");
-                MailAddress to = new MailAddress(mailAddress);
-                MailMessage m = new MailMessage(from, to);
-                // тема письма
-                m.Subject = "Фотография";
-                // письмо представляет код html
-                m.IsBodyHtml = true;
-                //m.AlternateViews.Add(getEmbeddedImage($"D:\Faces\face_{photoName}_*.jpg"));
-                m.AlternateViews.Add(getEmbeddedImage($"\"D\\Faces\\face_{photoName}_*.jpg\""));
-                // адрес smtp-сервера и порт, с которого будем отправлять письмо
-                //SmtpClient smtp = new SmtpClient("smtp.gmail.com", 25);
-                // логин и пароль
-                smtps.Credentials = new NetworkCredential("max59.tyt@gmail.com", "qpbz sznw cdlo gitt ");
-                smtps.EnableSsl = true;
-                smtps.Send(m);
+                Bitmap bmp1 = new Bitmap("D:\\Faces\\123.jpeg");
+                bmp1 = img;
+                bmp1.Save("D:\\Faces\\123.jpeg");
             }
+            catch { }
+        }
+        public async void SendMessage(string mailAddress, string photoName)
+        {
+            await Task.Run(() => 
+            {
+                Task.Delay(1000);
+                using (var smtps = new SmtpClient("smtp.gmail.com", 25))
+                {
+                    MailAddress from = new MailAddress("max59.tyt@gmail.com");
+                    MailAddress to = new MailAddress(mailAddress);
+                    MailMessage m = new MailMessage(from, to);
+                    // тема письма
+                    m.Subject = "Фотография";
+                    // письмо представляет код html
+                    m.IsBodyHtml = true;
+
+                    m.AlternateViews.Add(getEmbeddedImage($"D:\\Faces\\123.jpeg"));
+                    //m.AlternateViews.Add(getEmbeddedImage($"\"D\\Faces\\face_{photoName}_*.jpg\""));
+                    //m.AlternateViews.Add(getEmbeddedImage(bmp1));
+                    // адрес smtp-сервера и порт, с которого будем отправлять письмо
+                    //SmtpClient smtp = new SmtpClient("smtp.gmail.com", 25);
+                    // логин и пароль
+                    smtps.Credentials = new NetworkCredential("max59.tyt@gmail.com", "qpbz sznw cdlo gitt ");
+                    smtps.EnableSsl = true;
+                    smtps.Send(m);
+                    UserEmail.Text = "";
+                }
+            });
         }
         private AlternateView getEmbeddedImage(String filePath)
         {
