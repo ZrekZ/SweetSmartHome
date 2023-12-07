@@ -64,11 +64,11 @@ namespace WindowsFormsApp56
         }
         public static DataTable GetTableData(string tableName)
         {
-            return Query($"select * from {tableName};"); //получить данные таблицы по названию
+            return Query($"select * from {tableName};"); 
         }
         public static DataTable UseSQLQuery(string query)
         {
-            return Query($"{query};"); //получить данные таблицы по названию
+            return Query($"{query};"); 
         }
         public Form1()
         {
@@ -102,15 +102,9 @@ namespace WindowsFormsApp56
 
 
             });
-            //Task.Yield().GetAwaiter();
-
-            //recognition = new BusinessRecognition(directoryToSave, placeToSave, "yuz.xml");
-            //train = new Classifier_Train(directoryToSave, placeToSave, "yuz.xml");
   recognition = new BusinessRecognition("D://", "Faces", "yuz.xml");
             train = new Classifier_Train("D://", "Faces", "yuz.xml");
         }
-        //BusinessRecognition recognition = new BusinessRecognition(directoryToSave, placeToSave, "yuz.xml");
-        //Classifier_Train train = new Classifier_Train(directoryToSave, placeToSave, "yuz.xml");
         BusinessRecognition recognition = new BusinessRecognition("D://", "Faces", "yuz.xml");
         Classifier_Train train = new Classifier_Train("D://", "Faces", "yuz.xml");
         private void Form1_Load(object sender, EventArgs e)
@@ -129,7 +123,6 @@ namespace WindowsFormsApp56
                 foreach (MCvAvgComp yuz in Yuzler[0])
                 {
                     var sadeyuz = grayimage.Copy(yuz.rect).Convert<Gray, byte>().Resize(100, 100, INTER.CV_INTER_CUBIC);
-                    //Изображения должны быть одинакового размера. Поэтому изменение размера было выполнено с помощью Resize. В противном случае будет получена ошибка в строке 245 класса Classifier_Train.
                     pictureBox2.Image = sadeyuz.ToBitmap();
                     if (train != null)
                         if (train.IsTrained)
@@ -181,17 +174,10 @@ namespace WindowsFormsApp56
                     MailAddress from = new MailAddress("max59.tyt@gmail.com");
                     MailAddress to = new MailAddress(mailAddress);
                     MailMessage m = new MailMessage(from, to);
-                    // тема письма
                     m.Subject = "Фотография";
-                    // письмо представляет код html
                     m.IsBodyHtml = true;
 
                     m.AlternateViews.Add(getEmbeddedImage($"D:\\Faces\\123.jpeg"));
-                    //m.AlternateViews.Add(getEmbeddedImage($"\"D\\Faces\\face_{photoName}_*.jpg\""));
-                    //m.AlternateViews.Add(getEmbeddedImage(bmp1));
-                    // адрес smtp-сервера и порт, с которого будем отправлять письмо
-                    //SmtpClient smtp = new SmtpClient("smtp.gmail.com", 25);
-                    // логин и пароль
                     smtps.Credentials = new NetworkCredential("max59.tyt@gmail.com", "qpbz sznw cdlo gitt ");
                     smtps.EnableSsl = true;
                     smtps.Send(m);
