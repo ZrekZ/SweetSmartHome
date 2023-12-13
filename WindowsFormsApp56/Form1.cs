@@ -171,14 +171,14 @@ namespace WindowsFormsApp56
                 Task.Delay(1000);
                 using (var smtps = new SmtpClient("smtp.gmail.com", 25))
                 {
-                    MailAddress from = new MailAddress("max59.tyt@gmail.com");
+                    MailAddress from = new MailAddress("Your_mail");
                     MailAddress to = new MailAddress(mailAddress);
                     MailMessage m = new MailMessage(from, to);
                     m.Subject = "Фотография";
                     m.IsBodyHtml = true;
 
                     m.AlternateViews.Add(getEmbeddedImage($"D:\\Faces\\123.jpeg"));
-                    smtps.Credentials = new NetworkCredential("max59.tyt@gmail.com", "qpbz sznw cdlo gitt ");
+                    smtps.Credentials = new NetworkCredential("Your_mail", "Your_mail_smtp_password");
                     smtps.EnableSsl = true;
                     smtps.Send(m);
                     UserEmail.Text = "";
